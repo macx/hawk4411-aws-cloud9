@@ -1,0 +1,14 @@
+@import url(modern-normalize.css);
+:root {
+  color-scheme: light dark;
+  --color-text: #263238;
+  --color-background: #fff; }
+
+@media (prefers-color-theme: dark) {
+  :root {
+    --color-text: #263238;
+    --color-bg: #fff; } }
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text); }
